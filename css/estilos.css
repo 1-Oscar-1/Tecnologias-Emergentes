@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+:root{
+    --azul-claro: #4881e9;
+    --titulo: 'Press Start 2P', cursive;
+    --texto: 'Space Mono', monospace;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.titulo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--texto);
+}
+
+/*========================== Nav bar =======================*/
+
+nav{
+    background-color: var(--azul-claro);
+}
+nav div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav div a{
+    margin: 30px 5px;
+    font-family: var(--titulo);
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+nav div a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*========================== Inicio =======================*/
+
+.container-inicio{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: var(--texto);
+}
+.container-inicio div{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.container-inicio > div p{
+    color: black;
+}
+.container-inicio > div p:nth-child(1){
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.container-inicio img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*========================== Telecomunicaciones =======================*/
+#tele{
+    background-color: var(--azul-claro);
+}
+.container-tele{
+    padding: 50px 0;
+}
+.container-texto-pagina{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-texto-pagina div{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--texto);
+}
+.container-texto-pagina div:nth-child(2) iframe{
+    width: 100%;
+    min-height: 300px;
+}
+
+/*========================== Educacion =======================*/
+
+.container-educacion{
+    padding: 50px 0;
+}
+.container-educacion p{
+    color: black;
+}
+
+/*========================== Salud =======================*/
+
+#salud{
+    background-color: var(--azul-claro);
+}
+
+/*========================== Footer =======================*/
+
+footer{
+    background-color: var(--azul-claro);
+}
+footer div{
+    padding: 50px 0;
+    text-align: center;
+    font-family: var(--texto);
+    font-size: 15px;
+}
